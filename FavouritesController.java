@@ -18,7 +18,7 @@ public class FavouritesController {
 
     @Autowired
     private FavouriteRepository repository;
-    
+    // Important! read this link as an example ---> https://medium.com/@bhavyagupta1203/posting-form-data-from-reactjs-to-mysql-database-via-spring-boot-application-ea0c947c4b82
     // The idee with the requestmapping methods is to retrieve and post data to the database with the table called ('favourites').
     // The endpoints for this "@requestmapping" is '/api3/favourites' (see the servlet in the properties file)
     // This endpoints will be used in the Stocks.js file in the react app. In this component the twelve data AP
